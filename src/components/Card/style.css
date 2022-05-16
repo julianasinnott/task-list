@@ -1,3 +1,17 @@
 .card {
-    background-color: blueviolet;
+    background-color: rgba(252, 135, 93, 0.886);
+    color: antiquewhite;
+    font-size: 18px;
+
+    height: 100px;
+    width: 50%;
+
+    border-radius: 10px;
+    margin-bottom: 20px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 24px;
+
 }

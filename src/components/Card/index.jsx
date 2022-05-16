@@ -3,10 +3,10 @@ import './style.css';
 
 
 
-export function Card () {
+export function Card ({nameTask}) {
     return (
       <div className="card">
-          <b>Juliana Gata</b>
+          <b>{nameTask}</b>
       </div>
     )
 }
