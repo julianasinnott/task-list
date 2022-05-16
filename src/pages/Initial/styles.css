@@ -11,12 +11,17 @@ h1 {
 }
 
 input {
+    color:  rgba(74, 74, 73, 0.886);
     width: 50%;
     padding: 24px;
-    background-color: rgba(255, 68, 0, 0.208);
+    background-color: rgba(152, 152, 152, 0.208);
     border-radius: 5px;
     border:none;
     font-size: 16px;
+}
+
+textarea:focus, input:focus {
+    outline-color: rgba(255, 68, 0, 0.886);
 }
 
 button {
