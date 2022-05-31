@@ -6,7 +6,6 @@
     flex-direction: column;
     justify-content: center;
     padding: 20px 40px;
-    /* opacity: 1; */
 }
 
 h1 {
@@ -15,7 +14,7 @@ h1 {
 }
 
 input {
-    color:  rgba(74, 74, 73, 0.886);
+    color: rgb(158, 157, 157);
     width: 100%;
     padding: 0px 24px;
     height: 60px;
@@ -23,9 +22,15 @@ input {
     border-radius: 5px;
     border:none;
     font-size: 16px;
+    outline: none;
 }
 
-textarea:focus, input:focus {
+input::placeholder{
+    color: rgb(158, 157, 157);
+}
+
+input:focus {
+    outline: solid;
     outline-color: rgba(255, 68, 0, 0.886);
 }
 
