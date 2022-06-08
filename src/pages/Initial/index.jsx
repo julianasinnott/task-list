@@ -2,7 +2,7 @@ import { ListPlus, Trash } from 'phosphor-react'
 import { useEffect, useState } from 'react'
 import { Card } from '../../components/Card'
 import { Header } from '../../components/Header'
-import { useGetUser } from '../../features/pages/hooks/useGetUser'
+import { useGetUser } from '../../services/useGetUser'
 
 import './styles.css'
 
