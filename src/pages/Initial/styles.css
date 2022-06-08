@@ -34,12 +34,15 @@ input:focus {
     outline-color: rgba(255, 68, 0, 0.886);
 }
 
-.form {
-    width: 100%;
+.form {    
     display: flex;
     justify-content: center;
     align-items:flex-start;
     margin: 12px 0 40px;
+}
+
+main {
+    width: 100%;
 }
 
 .button {

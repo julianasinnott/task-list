@@ -15,23 +15,43 @@ export function Initial() {
     getUser()
   }, [])
 
-  function resetTaskList (){
-    setTaskList([])
+  function taskSubmit(event) {   
+    event.preventDefault()
+    tasksName !== '' && setTaskList([...taskList, tasksName])    
+    Array.from(document.querySelectorAll("input")).forEach(
+      input => (input.value = ""))
   }
+
+  function resetTaskList (event){
+    event.preventDefault()
+    setTaskList([])
+  }  
 
   return (
     <div className='box'>
       <Header user={data} />
       <h1>Lista de Tarefas</h1>
-      <div className='form'>
-        <input
-          onChange={e => setTasksName(e.target.value)}
-          type="text"
-          placeholder="O que vamos fazer hoje?"
-        />
-        <ListPlus className="button" size={24} onClick={() => tasksName !== '' && setTaskList([...taskList, tasksName])} />
-        <Trash className="button" size={24} onClick={() => resetTaskList()} />
-      </div>
+      <main>
+        <form className='form'>
+          <input
+            onChange={e => setTasksName(e.target.value)}
+            type="text"
+            placeholder="O que vamos fazer hoje?"
+          />
+          <button
+            className="button"
+            onClick={taskSubmit}  
+          >
+            <ListPlus size={24} />
+          </button>
+          <button
+            className="button"
+            onClick={resetTaskList}
+          >
+            <Trash size={24} />
+          </button>
+        </form>
+      </main>
       {taskList.map((task, index) =>       
         <Card key={index} nameTask={task} /> 
       )}
