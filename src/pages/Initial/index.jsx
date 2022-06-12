@@ -46,18 +46,18 @@ export function Initial() {
             <input
               className='inputTask'
               onChange={e => setTasksName(e.target.value)}
-              type="text"
-              placeholder="O que vamos fazer hoje?"
+              type='text'
+              placeholder='O que vamos fazer hoje?'
             />
             <button
-              type="submit"
-              className="button"
+              type='submit'
+              className='button'
             >
               <ListPlus size={24} />
             </button>
             <button
-              type="reset"
-              className="button"
+              type='reset'
+              className='button'
               onClick={resetTaskList}
             >
               <Trash size={24} />
