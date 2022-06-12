@@ -47,7 +47,7 @@ export function Initial() {
               className='inputTask'
               onChange={e => setTasksName(e.target.value)}
               type='text'
-              placeholder='O que vamos fazer hoje?'
+              placeholder='Qual a tarefa de hoje?'
             />
             <button
               type='submit'
