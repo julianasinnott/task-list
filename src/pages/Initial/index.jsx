@@ -64,9 +64,11 @@ export function Initial() {
             </button>
           </form>
         </main>
-        {taskList.map((task, index) =>       
-          <Card key={index} nameTask={task} /> 
-        )}
+        <section className='card-section'>
+          {taskList.map((task, index) =>       
+            <Card key={index} nameTask={task} /> 
+          )}
+        </section>
         <Footer />
       </div>
     </div>

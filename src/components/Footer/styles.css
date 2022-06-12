@@ -1,3 +1,8 @@
+footer {
+    position: absolute;
+    bottom: 25px;
+}
+
 p, .linkedinLinkFooter {
     color: rgb(158, 157, 157);
     font-size: 12px;
