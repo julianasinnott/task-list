@@ -1,9 +1,17 @@
-header {
-    color: rgba(255, 68, 0, 0.886);
+header {    
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: flex-end;
     gap: 20px;
     font-size: 12px;
+}
+
+.linkedinLinkHeader {
+    text-decoration: none;
+    color: rgba(255, 68, 0, 0.886);
+}
+
+.linkedinLink:hover {
+    font-size: 13px;
 }

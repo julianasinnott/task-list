@@ -1,6 +1,7 @@
 import { ListPlus, Trash } from 'phosphor-react'
 import { useEffect, useState } from 'react'
 import { Card } from '../../components/Card'
+import { Footer } from '../../components/Footer'
 import { Header } from '../../components/Header'
 import { useGetUser } from '../../services/useGetUser'
 
@@ -36,34 +37,38 @@ export function Initial() {
   }  
 
   return (
-    <div className='box'>
-      <Header user={data} />
-      <h1>Lista de Tarefas</h1>
-      <main>
-        <form onSubmit={taskSubmit} className='form'>
-          <input
-            onChange={e => setTasksName(e.target.value)}
-            type="text"
-            placeholder="O que vamos fazer hoje?"
-          />
-          <button
-            type="submit"
-            className="button"
-          >
-            <ListPlus size={24} />
-          </button>
-          <button
-            type="reset"
-            className="button"
-            onClick={resetTaskList}
-          >
-            <Trash size={24} />
-          </button>
-        </form>
-      </main>
-      {taskList.map((task, index) =>       
-        <Card key={index} nameTask={task} /> 
-      )}
+    <div className='container'>
+      <div className='box'>
+        <Header user={data} />
+        <h1>Lista de Tarefas</h1>
+        <main className='main'>
+          <form onSubmit={taskSubmit} className='form'>
+            <input
+              className='inputTask'
+              onChange={e => setTasksName(e.target.value)}
+              type="text"
+              placeholder="O que vamos fazer hoje?"
+            />
+            <button
+              type="submit"
+              className="button"
+            >
+              <ListPlus size={24} />
+            </button>
+            <button
+              type="reset"
+              className="button"
+              onClick={resetTaskList}
+            >
+              <Trash size={24} />
+            </button>
+          </form>
+        </main>
+        {taskList.map((task, index) =>       
+          <Card key={index} nameTask={task} /> 
+        )}
+        <Footer />
+      </div>
     </div>
     ) 
   }

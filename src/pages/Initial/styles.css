@@ -1,19 +1,39 @@
-
-.box {
+.container {
     display: flex;
     align-items: center;
-    width: 100%;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.box {
+    
+    background-color: rgba(33, 29, 29, 0.881);
+    display: flex;
+    align-items: center;
+    width: 500px;
     flex-direction: column;
     justify-content: center;
     padding: 20px 40px;
+    border-radius: 5px;
 }
 
 h1 {
     color: rgba(255, 68, 0, 0.886);
-    margin: 70px 0 25px;
+    margin: 40px 0 25px;
 }
 
-input {
+.main {
+    width: 100%;
+}
+
+.form {    
+    display: flex;
+    justify-content: center;
+    align-items:flex-start;
+    margin: 12px 0 40px;
+}
+
+.inputTask {
     color: rgb(158, 157, 157);
     width: 100%;
     padding: 0px 24px;
@@ -25,24 +45,13 @@ input {
     outline: none;
 }
 
-input::placeholder{
+.inputTask::placeholder{
     color: rgb(158, 157, 157);
 }
 
-input:focus {
+.inputTask:focus {
     outline: solid;
     outline-color: rgba(255, 68, 0, 0.886);
-}
-
-.form {    
-    display: flex;
-    justify-content: center;
-    align-items:flex-start;
-    margin: 12px 0 40px;
-}
-
-main {
-    width: 100%;
 }
 
 .button {
@@ -63,4 +72,19 @@ main {
 .button:hover {
     background-color: orangered;
     color: rgb(214, 213, 213);
+}
+
+@media screen and (max-width:540px){
+    .box {
+        width: 95%;
+    }
+
+    h1 {
+        font-size: 30px;
+    }
+
+    input {
+        font-size: 15px;
+    }
+
 }

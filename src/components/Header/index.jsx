@@ -4,7 +4,7 @@ import './styles.css'
 export function Header({user}) {
     return(
         <header>
-            <p>{user?.name}</p>
+            <a className="linkedinLinkHeader" target='_blank' href="https://www.linkedin.com/in/julianasinnott/">{user?.name}</a> 
             <UserImage url={user?.avatar_url} />
         </header>
     )
