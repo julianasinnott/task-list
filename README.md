@@ -25,7 +25,7 @@ Para clonar e rodar esse projeto você precisa ter instalado: [Git](https://git-
 No terminal:
 
 #### Clonando o repositório
-$ `git clone` https://github.com/julianasinnott/REACT-JS-task-list.git
+$ `git clone https://github.com/julianasinnott/REACT-JS-task-list.git`
 
 #### Entrando no repositório
 $ `cd REACT-JS-task-list`
