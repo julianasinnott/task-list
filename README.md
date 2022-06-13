@@ -1,12 +1,12 @@
 <h1 align='center'> Task List </h1>
 
 <p align="center">
-  <img alt="GitHub top language" src="https://img.shields.io/github/languages/top/julianasinnott/REACT-JS-task-list.svg?color=fc4117">
+  <img alt="GitHub top language" src="https://img.shields.io/github/languages/top/julianasinnott/task-list.svg?color=fc4117">
 
-  <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/julianasinnott/REACT-JS-task-list.svg?color=fc4117">
+  <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/julianasinnott/task-list.svg?color=fc4117">
   
-  <a href="https://github.com/julianasinnott/REACT-JS-task-list/commits/main">
-    <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/julianasinnott/REACT-JS-task-list.svg?color=fc4117">
+  <a href="https://github.com/julianasinnott/task-list/commits/main">
+    <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/julianasinnott/task-list.svg?color=fc4117">
   </a>
 </p>
 
@@ -25,10 +25,10 @@ Para clonar e rodar esse projeto você precisa ter instalado: [Git](https://git-
 No terminal:
 
 #### Clonando o repositório
-$ `git clone https://github.com/julianasinnott/REACT-JS-task-list.git`
+$ `git clone https://github.com/julianasinnott/task-list.git`
 
 #### Entrando no repositório
-$ `cd REACT-JS-task-list`
+$ `cd task-list`
 
 #### Instalando dependências
 $ `npm install`
