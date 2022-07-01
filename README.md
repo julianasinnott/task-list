@@ -13,6 +13,10 @@
 ![image](https://user-images.githubusercontent.com/100887684/173469746-4a6d6c06-4cb2-4153-98e0-43e0bfe0a64b.png)
 <p align='center'> 🚧 Em construção 🚧 </p>
 
+## | Deploy do projeto |
+
+🔗 https://tasklist-nuk02wz3v-julianasinnott.vercel.app/ 🔗
+
 ##  | Create App |
 
 Este App foi desenvoldido com [ReactJS](https://reactjs.org/) <br>
@@ -22,6 +26,8 @@ Este App foi criado com [Vite](https://vitejs.dev/) <br>
 ## | Como rodar |
 
 Para clonar e rodar esse projeto você precisa ter instalado: [Git](https://git-scm.com/) e [NodeJS](https://nodejs.org/en/) 
+
+<hr>
 
 No terminal:
 
@@ -37,7 +43,13 @@ $ `npm install`
 #### Executando
 $ `npm run dev`
 
+<hr>
+
 #### Abra http://localhost:3000/ em seu navegador 
+
+## | Deploy |
+
+[Vercel](https://vercel.com/)
 
 
 
