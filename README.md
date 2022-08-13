@@ -45,7 +45,7 @@ $ `npm run dev`
 
 <hr>
 
-#### Abra http://localhost:3000/ em seu navegador 
+#### Abra http://localhost:5173/ em seu navegador
 
 ## | Deploy |
 
